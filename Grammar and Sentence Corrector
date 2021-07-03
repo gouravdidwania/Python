@@ -4,7 +4,7 @@ import streamlit as st
 import warnings
 warnings.filterwarnings('ignore')
 
-st.title("Spelling and Grammer checker in Python")
+st.title("Spelling and Grammar checker in Python")
 
 st.text_area("Enter text:",value='',height=None,key=None)
 parser=GingerIt()
